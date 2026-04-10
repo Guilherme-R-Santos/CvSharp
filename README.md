@@ -1025,18 +1025,6 @@ curl -X POST https://localhost:5001/api/cv/generate \
 
 ---
 
-## 🚀 Deployment & Produção
-
-### 📋 Opções de Deployment
-
-| Plataforma | Dificuldade | Tempo Estimado | Custo | Link |
-|:---:|:---:|:---:|:---:|:---:|
-| 🔵 **Azure App Service** | ⭐ Fácil | 15 min | $10-50/mês | [Guia](DEPLOYMENT.md) |
-| 🐋 **Docker** | ⭐⭐ Médio | 20 min | Gratuito | [Guia](DEPLOYMENT.md) |
-| ⚙️ **GitHub Actions** | ⭐⭐⭐ Avançado | 30 min | Gratuito* | [Guia](DEPLOYMENT.md) |
-| 🔴 **Heroku** | ⭐ Fácil | 10 min | $5-25/mês | [Guia](DEPLOYMENT.md) |
-| 🌐 **Vercel (Frontend)** | ⭐ Fácil | 5 min | Gratuito | [Guia](DEPLOYMENT.md) |
-
 ### 🎯 Recomendações
 
 ```
