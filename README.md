@@ -10,10 +10,10 @@
   └─────────────────────────────────────────────────┘
 ```
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/seu-usuario/CvGenSharp/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/seu-usuario/CvSharp/releases)
 [![License MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://github.com/seu-usuario/CvGenSharp)
-[![Build Passing](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/seu-usuario/CvGenSharp/actions)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://github.com/seu-usuario/CvSharp)
+[![Build Passing](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/seu-usuario/CvSharp/actions)
 
 ### 🛠️ Tech Stack
 
@@ -42,7 +42,7 @@
 
 ---
 
-## 💡 O Que É CvGenSharp?
+## 💡 O Que É CvSharp?
 
 <div align="center">
 
@@ -53,7 +53,7 @@
 
 </div>
 
-### ⚡ Por Que Usar CvGenSharp?
+### ⚡ Por Que Usar CvSharp?
 
 | Benefício | Descrição | Status |
 |-----------|-----------|--------|
@@ -70,7 +70,7 @@
 
 ```
 ╔════════════════════════════════════════════════════════════╗
-║                   CvGenSharp Interface                     ║
+║                   CvSharp Interface                     ║
 ╠════════════════════════════════════════════════════════════╣
 ║                                                            ║
 ║  📊 Score ATS: ████████░░ 85/100 [EXCELENTE] ✨          ║
@@ -92,9 +92,9 @@
 
 ## 🎯 Sobre o Projeto
 
-CvGenSharp é uma aplicação web completa que permite aos usuários criar currículos profissionais e otimizados especificamente para sistemas ATS (Applicant Tracking Systems). Com uma interface intuitiva e moderna, o sistema guia o usuário através de múltiplas seções, fornecendo sugestões em tempo real e um score de compatibilidade ATS.
+CvSharp é uma aplicação web completa que permite aos usuários criar currículos profissionais e otimizados especificamente para sistemas ATS (Applicant Tracking Systems). Com uma interface intuitiva e moderna, o sistema guia o usuário através de múltiplas seções, fornecendo sugestões em tempo real e um score de compatibilidade ATS.
 
-**Por que CvGenSharp?**
+**Por que CvSharp?**
 - ✅ Interface moderna e intuitiva
 - ✅ Otimização automática para ATS
 - ✅ Geração de PDF profissional
@@ -341,19 +341,19 @@ Certificações profissionais:
 #### `1️⃣ Clone o Repositório`
 
 ```bash
-git clone https://github.com/seu-usuario/CvGenSharp.git
-cd CvGenSharp
+git clone https://github.com/seu-usuario/CvSharp.git
+cd CvSharp
 ```
 
 #### `2️⃣ Instale Dependências`
 
 ```bash
 # Frontend
-cd cvgensharp.client
+cd CvSharp.client
 npm install
 
 # Backend (em outro terminal)
-cd ../CvGenSharp.Server
+cd ../CvSharp.Server
 dotnet restore
 ```
 
@@ -368,11 +368,11 @@ dotnet dev-certs https --trust
 
 ```bash
 # Terminal 1: Backend
-cd CvGenSharp.Server
+cd CvSharp.Server
 dotnet run
 
 # Terminal 2: Frontend
-cd cvgensharp.client
+cd CvSharp.client
 npm run dev
 ```
 
@@ -404,9 +404,9 @@ npm run dev
 ## 📁 Estrutura do Projeto
 
 ```
-CvGenSharp/
+CvSharp/
 │
-├── 📂 cvgensharp.client/                  # Frontend React
+├── 📂 CvSharp.client/                  # Frontend React
 │   ├── 📂 src/
 │   │   ├── 📂 components/                 # Componentes React reutilizáveis
 │   │   │   ├── CVGenerator.tsx           # Componente principal
@@ -432,7 +432,7 @@ CvGenSharp/
 │   ├── package.json                      # Dependências
 │   └── index.html                        # HTML raiz
 │
-├── 📂 CvGenSharp.Server/                 # Backend .NET
+├── 📂 CvSharp.Server/                 # Backend .NET
 │   ├── 📂 Controllers/
 │   │   └── CVController.cs               # API endpoints
 │   ├── 📂 Services/
@@ -440,7 +440,7 @@ CvGenSharp/
 │   ├── 📂 Models/
 │   │   └── CVModels.cs                   # Modelos de dados
 │   ├── Program.cs                        # Configuração
-│   ├── CvGenSharp.Server.csproj          # Projeto .NET
+│   ├── CvSharp.Server.csproj          # Projeto .NET
 │   └── wwwroot/                          # Assets estáticos
 │
 ├── 📄 README.md                          # Este arquivo
@@ -592,7 +592,7 @@ CvGenSharp/
 **Desktop View:**
 ```
 ┌──────────────────────────────────────────────┐
-│ 🎓 CvGenSharp - Gerador de Currículo ATS    │
+│ 🎓 CvSharp - Gerador de Currículo ATS    │
 ├──────────────────────────────────────────────┤
 │ Score: ████████░░ 85/100  [Excelente] ✨   │
 ├──────────────────────────────────────────────┤
@@ -615,7 +615,7 @@ CvGenSharp/
 **Mobile View:**
 ```
 ┌────────────────────┐
-│ 🎓 CvGenSharp      │
+│ 🎓 CvSharp      │
 ├────────────────────┤
 │ Score: 85/100 ✨  │
 ├────────────────────┤
@@ -905,7 +905,7 @@ Monitoring, Prometheus, ELK Stack, Datadog
 
 ```bash
 # ✅ Solução 1: Verifique se backend está rodando
-cd CvGenSharp.Server
+cd CvSharp.Server
 dotnet run
 # Deve exibir: "Application started. Press Ctrl+C to shut down."
 
@@ -975,11 +975,11 @@ dotnet dev-certs https --trust
 # Windows (já está ok por padrão)
 
 # Linux/Mac
-chmod -R 755 CvGenSharp.Server/wwwroot/cvs/
-chmod -R 755 CvGenSharp.Server/wwwroot/
+chmod -R 755 CvSharp.Server/wwwroot/cvs/
+chmod -R 755 CvSharp.Server/wwwroot/
 
 # Ou crie pasta se não existir
-mkdir -p CvGenSharp.Server/wwwroot/cvs/
+mkdir -p CvSharp.Server/wwwroot/cvs/
 ```
 
 ### ❌ Erro: "Response 500 - Internal Server Error"
@@ -1021,7 +1021,7 @@ curl -X POST https://localhost:5001/api/cv/generate \
 # Deve retornar { "success": true, "fileUrl": "..." }
 ```
 
-> 📚 **Mais dúvidas?** Veja [SETUP.md](SETUP.md) para guia completo ou abra uma [Issue](https://github.com/seu-usuario/CvGenSharp/issues)
+> 📚 **Mais dúvidas?** Veja [SETUP.md](SETUP.md) para guia completo ou abra uma [Issue](https://github.com/seu-usuario/CvSharp/issues)
 
 ---
 
@@ -1137,7 +1137,7 @@ curl -X POST https://localhost:5001/api/cv/generate \
 
 <div align="center">
 
-### 🎉 Obrigado por usar CvGenSharp!
+### 🎉 Obrigado por usar CvSharp!
 
 **Desenvolvido com ❤️ usando React e .NET**
 
@@ -1145,6 +1145,6 @@ curl -X POST https://localhost:5001/api/cv/generate \
 ![Made with .NET](https://img.shields.io/badge/Made%20with-.NET-512BD4?style=flat&logo=.net)
 ![Made with Love](https://img.shields.io/badge/Made%20with-Love-red?style=flat&logo=github)
 
-[⬆ Voltar ao Topo](#cvgensharp---gerador-de-currículo-ats-otimizado)
+[⬆ Voltar ao Topo](#CvSharp---gerador-de-currículo-ats-otimizado)
 
 </div>
