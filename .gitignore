@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Frontend
+cvgensharp.client/node_modules
+cvgensharp.client/dist
+cvgensharp.client/dist-ssr
+cvgensharp.client/*.local
+
+# Backend
+CvGenSharp.Server/bin/
+CvGenSharp.Server/obj/
+CvGenSharp.Server/Properties/launchSettings.json
+CvGenSharp.Server/wwwroot/cvs/
+CvGenSharp.Server/.vs/
+CvGenSharp.Server/.vscode/
+CvGenSharp.Server/*.user
+
+# Generated CVs
+*.pdf
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Certificates
+*.pem
+*.key
+.aspnet/
+
+# Build artifacts
+publish/

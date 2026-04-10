@@ -1,0 +1,6 @@
+@CvGenSharp.Server_HostAddress = http://localhost:5042
+
+GET {{CvGenSharp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

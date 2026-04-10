@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="cvgensharp.client/cvgensharp.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="CvGenSharp.Server/CvGenSharp.Server.csproj" />
+</Solution>

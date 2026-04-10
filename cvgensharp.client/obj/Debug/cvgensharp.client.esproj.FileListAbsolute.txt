@@ -1,0 +1,2 @@
+D:\Desenvolvimento\CvGenSharp\cvgensharp.client\obj\Debug\cvgensharp.client.esproj.CoreCompileInputs.cache
+D:\Desenvolvimento\CvSharp\cvgensharp.client\obj\Debug\cvgensharp.client.esproj.CoreCompileInputs.cache
