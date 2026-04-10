@@ -1,4 +1,4 @@
-# 🎓 CvGenSharp - Gerador de Currículo ATS Otimizado
+# 🎓 CvSharp - Gerador de Currículo ATS Otimizado
 
 <div align="center">
 
@@ -9,8 +9,6 @@
   │  💡 Com Análise de Compatibilidade em Tempo Real│
   └─────────────────────────────────────────────────┘
 ```
-
-### ⭐ Badges & Status
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/seu-usuario/CvGenSharp/releases)
 [![License MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
