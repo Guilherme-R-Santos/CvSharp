@@ -1094,5 +1094,3 @@ curl -X POST https://localhost:5001/api/cv/generate \
 ├─ TypeScript Best Practices: www.typescriptlang.org/docs
 ├─ .NET Architecture: microsoft.com/architecture
 └─ ATS Optimization: talentboard.org
-
-</div>
