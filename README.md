@@ -1113,26 +1113,3 @@ curl -X POST https://localhost:5001/api/cv/generate \
 ├─ ✅ Tema claro/escuro
 ├─ ✅ Totalmente responsivo
 └─ ✅ Documentação completa
-```
-
-> 📖 Veja [CHANGELOG.md](CHANGELOG.md) para histórico completo com todas as versões
-
----
-
-### 📊 Estatísticas do Projeto
-
----
-
-<div align="center">
-
-### 🎉 Obrigado por usar CvSharp!
-
-**Desenvolvido com ❤️ usando React e .NET**
-
-![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat&logo=react)
-![Made with .NET](https://img.shields.io/badge/Made%20with-.NET-512BD4?style=flat&logo=.net)
-![Made with Love](https://img.shields.io/badge/Made%20with-Love-red?style=flat&logo=github)
-
-[⬆ Voltar ao Topo](#CvSharp---gerador-de-currículo-ats-otimizado)
-
-</div>
