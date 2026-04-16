@@ -1096,20 +1096,3 @@ curl -X POST https://localhost:5001/api/cv/generate \
 └─ ATS Optimization: talentboard.org
 
 </div>
-
----
-
-## 📝 Changelog & Histórico
-
-### v1.0.0 - 2024 ✨ Release Inicial
-
-```
-🎉 Lançamento Oficial
-├─ ✅ SPA completo com React 19
-├─ ✅ 9 componentes interativos
-├─ ✅ Backend API em .NET 10
-├─ ✅ Geração PDF com iText7
-├─ ✅ Análise ATS em tempo real
-├─ ✅ Tema claro/escuro
-├─ ✅ Totalmente responsivo
-└─ ✅ Documentação completa
